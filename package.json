@@ -1,19 +1,19 @@
 {
-  "name": "cypresscucumber",
-  "version": "1.0.0",
-  "description": "POC on Cypress with Cucumber",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "cypress:open": "cypress open"
-  },
-  "author": "Azfar",
-  "license": "ISC",
-  "devDependencies": {
-    "cypress": "^9.5.1",
-    "prettier": "2.5.1"
-  },
-  "dependencies": {
-    "cypress-cucumber-preprocessor": "^4.3.1"
-  }
+	"name": "cypresscucumber",
+	"version": "1.0.0",
+	"description": "POC on Cypress with Cucumber",
+	"main": "index.js",
+	"scripts": {
+		"cy:open": "cypress open",
+		"cy:run": "cypress run"
+	},
+	"author": "Azfar",
+	"license": "ISC",
+	"devDependencies": {
+		"cypress": "^9.5.1",
+		"prettier": "2.5.1"
+	},
+	"dependencies": {
+		"cypress-cucumber-preprocessor": "^4.3.1"
+	}
 }
